@@ -9,7 +9,7 @@ const adminprefix = "+";
 const devs = ['202745501345382400', '461766920400535552'];
 const moment = require('moment');
 const ytdl = require('ytdl-core');
-const yt = require('ytdl-core');Join Games ᴊɢ
+const yt = require('ytdl-core');
 const request = require('request');
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
@@ -23,7 +23,7 @@ var guilds = {};
 
 
 client.on('ready',  () => {
-    console.log('تم تشغيل : Join Games ᴊɢ  ');
+    console.log('تم تشغيل : 'Pure - System  ');
     console.log(`Logged in as * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
     console.log(`Logged in as * [ " ${client.user.username} " ] Users! [ " ${client.users.size} " ]`);
     console.log(`Logged in as * [ " ${client.user.username} " ] channels! [ " ${client.channels.size} " ]`);
@@ -44,22 +44,22 @@ client.on('message', message => {
     const days = millis / 1000 / 60 / 60 / 24;
     let roles = client.guilds.get(message.guild.id).roles.map(r => r.name);
     var embed  = new Discord.RichEmbed()
-    .setAuthor("[ 'Pure - System ]", " https://images-ext-2.discordapp.net/external/ahNXTY5REo9rE5-6oa5XGyzSrJis3qbk7eBUv1sEiYI/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/459725014237970492/558a210e07b9ae2504e427a4c7c6d297.png?width=455&height=455")
+    .setAuthor("[ 'Pure - System Bot ]", " https://images-ext-2.discordapp.net/external/ahNXTY5REo9rE5-6oa5XGyzSrJis3qbk7eBUv1sEiYI/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/459725014237970492/558a210e07b9ae2504e427a4c7c6d297.png?width=455&height=455")
     .addField("**[ 'Pure - System Prefix] :**","**[ + ]**" , true)
     .addField("** [ 'Pure - System ID ] **", "**"+"459725014237970492"+"**",true)
-    .addField("** [ 'Pure - System ] **","** **")
-    .addField("**[ Bot Developer ]**","Rqmz Team [! RqmzTeam Team]")
+    .addField("** [ 'Pure - System ] **","** دراجون**")
+    .addField("**[ Bot Developer ]**","<RqmzTeam> [<リミックス GŠ | Huxa ʚɞ#9999>]")
     .addField("**[ Servers ]**" , "**"+`${client.guilds.size}`+" Server**",true)
     .addField("**[ Users ] **",`** ${client.users.size} User**`)
     .setThumbnail(" https://images-ext-2.discordapp.net/external/ahNXTY5REo9rE5-6oa5XGyzSrJis3qbk7eBUv1sEiYI/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/459725014237970492/558a210e07b9ae2504e427a4c7c6d297.png?width=455&height=455")
     .setColor("ffffff")
-    .setFooter(`+help to see all Join Games ᴊɢ commands `, ' https://images-ext-2.discordapp.net/external/ahNXTY5REo9rE5-6oa5XGyzSrJis3qbk7eBUv1sEiYI/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/459725014237970492/558a210e07b9ae2504e427a4c7c6d297.png?width=455&height=455')
+    .setFooter(`+help to see all 'Pure - System commands `, ' https://images-ext-2.discordapp.net/external/ahNXTY5REo9rE5-6oa5XGyzSrJis3qbk7eBUv1sEiYI/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/459725014237970492/558a210e07b9ae2504e427a4c7c6d297.png?width=455&height=455')
     message.channel.sendEmbed(embed)
     }
     });
 
 client.on("guildDelete", guild => {
-    console.log(` Join Games ᴊɢ Left From Server -- = ${guild.name} = -- , Server Owner -- = ${guild.owner.user.username} = --`)
+    console.log(` 'Pure - System Left From Server -- = ${guild.name} = -- , Server Owner -- = ${guild.owner.user.username} = --`)
    
 var g= guild.members.size
 var i= guild.iconURL
@@ -67,8 +67,8 @@ var i= guild.iconURL
 const embed = new Discord.RichEmbed()
   
                    .setColor("RANDOM")
-                .setFooter(` ©  'Pure - System `)
-                .setTitle(" Join Games ᴊɢ Left Server !")
+                .setFooter(` ©  'Pure - System™ `)
+                .setTitle(" 'Pure - System Left Server !")
                 .addField("**Guild Name:**", guild.name )
                  .addField("**Owner:**", guild.owner.user.username )
                  .addField("**Owner id:**", guild.owner.user.id )
@@ -79,7 +79,7 @@ client.channels.get("427613133826162698").send({ embed: embed });
 
 
 client.on("guildCreate", guild => {
-console.log(` Join Games ᴊɢ Added From Server -- = ${guild.name} = -- , Server Owner -- = ${guild.owner.user.username} = --`)
+console.log(` 'Pure - System Added From Server -- = ${guild.name} = -- , Server Owner -- = ${guild.owner.user.username} = --`)
 
 var g= guild.members.size
 var i= guild.iconURL
@@ -87,8 +87,8 @@ var i= guild.iconURL
 const embed = new Discord.RichEmbed()
   
                    .setColor("RANDOM")
-                .setFooter(` ©  'Pure - System `)
-                .setTitle(" Join Games ᴊɢ Added To Server !")
+                .setFooter(` ©  'Pure - System™ `)
+                .setTitle(" 'Pure - System Added To Server !")
                 .addField("**Guild Name:**", guild.name )
                  .addField("**Owner:**", guild.owner.user.username )
                  .addField("**MEMBER COUNT:**", g )
@@ -1132,7 +1132,7 @@ client.on('message', message => {
 
   var roleCreated = role.createdAt.toString().split(' ');
   const embed = new Discord.RichEmbed()
-  .setTitle("Join Games ᴊɢ")
+  .setTitle("'Pure - System")
   .setAuthor( '', '' )
   .setColor(0xFF8DFD)
   .setDescription(``)
@@ -3003,7 +3003,7 @@ message.react("📬")
       if(!msg.member.hasPermission('ADMINISTRATOR')) return      msg.channel.send('**للأسف لا تمتلك صلاحية** `ADMINISTRATOR`' );
       if(!msg.guild.member(client.user).hasPermission("MANAGE_ROLES")) return msg.reply("**I Don't Have `MANAGE_ROLES` Permission**").then(msg => msg.delete(6000))
 
-    msg.guild.roles.filter(msg => isNaN(msg)).forEach(Join Games ᴊɢ => Join Games ᴊɢ.delete())
+    msg.guild.roles.filter(msg => isNaN(msg)).forEach('Pure - System => 'Pure - System.delete())
     }
     });
       
@@ -3047,7 +3047,7 @@ ${args}
         if(!message.channel.guild) return message.channel.send('**هذا الأمر فقط للسيرفرات**').then(m => m.delete(5000));
       if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**للأسف لا تمتلك صلاحية** `ADMINISTRATOR`' );
         let args = message.content.split(" ").join(" ").slice(2 + prefix.length);
-        let copy = "Join Games ᴊɢ";
+        let copy = "'Pure - System";
         let request = `Requested By ${message.author.username}`;
         if (!args) return message.reply('**يجب عليك كتابة كلمة او جملة لإرسال البرودكاست**');message.channel.send(`**هل أنت متأكد من إرسالك البرودكاست؟ \nمحتوى البرودكاست:** \` ${args}\``).then(msg => {
         msg.react('✅')
@@ -3917,7 +3917,7 @@ var prefix = "+";
         var args = message.content.split(" ").slice(1);
     if(message.content.startsWith(prefix + 'لو خيروك')) {
          var lo = new Discord.RichEmbed()
-     .setFooter(`©  'Pure - System `)
+     .setFooter(`©  'Pure - System™ `)
 .setImage(viper[Math.floor(Math.random() * viper.length)])
 message.channel.sendEmbed(lo);
     }
@@ -3947,7 +3947,7 @@ const secreT = [
     .setColor('RANDOM')
    
      .setThumbnail(message.author.avatarURL) 
-     .setFooter(`©  'Pure - System `)
+     .setFooter(`©  'Pure - System™ `)
    .addField('لعبه خواطر' ,
     `${secreT[Math.floor(Math.random() * secreT.length)]}`)
     message.channel.sendEmbed(embed);
@@ -3993,7 +3993,7 @@ client.on('message', message => {
  var embed = new Discord.RichEmbed()
  .setColor('RANDOM')
   .setThumbnail(message.author.avatarURL) 
-     .setFooter(`©  'Pure - System `)
+     .setFooter(`©  'Pure - System™ `)
 .addField('لعبه كت تويت' ,
  `${cuttweet[Math.floor(Math.random() * cuttweet.length)]}`)
  message.channel.sendEmbed(embed);
@@ -4009,7 +4009,7 @@ client.on('message', message => {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor(0xd3d0c4)
-     .setFooter(`©  'Pure - System `)
+     .setFooter(`©  'Pure - System™ `)
    .setThumbnail(message.author.avatarURL) 
  .addField('حب' ,
   `${Love[Math.floor(Math.random() * Love.length)]}`)
@@ -4024,7 +4024,7 @@ var prefix = "+";
         var args = message.content.split(" ").slice(1);
     if(message.content.startsWith(prefix + 'animal')) {
          var cat = new Discord.RichEmbed()
-     .setFooter(`©  'Pure - System `)
+     .setFooter(`©  'Pure - System™ `)
 .setImage(cats[Math.floor(Math.random() * cats.length)])
 message.channel.sendEmbed(cat);
     }
@@ -4097,7 +4097,7 @@ if (message.content.startsWith('+صراحه')) {
  var client= new Discord.RichEmbed()
  .setTitle("لعبة صراحة ..")
  .setColor('RANDOM')
-     .setFooter(`©  'Pure - System `)
+     .setFooter(`©  'Pure - System™ `)
  .setDescription(`${Sra7a[Math.floor(Math.random() * Sra7a.length)]}`)
  .setImage("https://cdn.discordapp.com/attachments/371269161470525444/384103927060234242/125.png")
                  .setTimestamp()
@@ -4440,74 +4440,6 @@ client.on("message", message => {
         }
       
       });
-	  
-	  	client.on('message', message => {
-         if (message.content === "+createserver") {
-		       if(!message.guild.member(client.user).hasPermission("MANAGE_CHANNELS")) return message.reply("**يحتاج البوت الى خاصية` MANAGE_CHANNELS ` **").then(msg => msg.delete(6000))
-
-                       if(!message.channel.guild) return message.reply('** This command only for servers **');
-	                         if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**أنت ليس لديك برمشن** `ADMINISTRATOR`' );
-	const embed = new Discord.RichEmbed()
-		.setDescription('** __:ok_hand: running...to make Channels | يتم الأن عمل الرومات الصويتة والكتابية__ **')
-		.setColor('RANDOM')
-		.setFooter("**Join Games ᴊɢ, System **")
-	message.channel.sendEmbed(embed);
-
-message.guild.createChannel('Info', 'text');
-message.guild.createChannel('Welcome', 'text');
-message.guild.createChannel('Chat', 'text');
-message.guild.createChannel('bot', 'text');
-message.guild.createChannel('bo7', 'text');
-message.guild.createChannel('pic', 'text');
-message.guild.createChannel('cut', 'text');
-message.guild.createChannel('log', 'text');
-message.guild.createChannel('admin-chat', 'text');
-message.guild.createChannel('▓▬▬▬ADMNS▬▬▬▓', 'voice');
-message.guild.createChannel('Owner - مالك السيرفر', 'voice');
-message.guild.createChannel('Co Owner - نائب الرئيس', 'voice');
-message.guild.createChannel('Dev - مبرمج السيرفر', 'voice');
-message.guild.createChannel('Admin - مشرف', 'voice');
-message.guild.createChannel('Mod - مود', 'voice');
-message.guild.createChannel('▓▬▬▬Other▬▬▬▓', 'voice');
-message.guild.createChannel('[ R E C ] 🎥', 'voice');
-message.guild.createChannel('YouTubers - يوتيوبرز', 'voice');
-message.guild.createChannel('VIP + - كبار الشخصيات بلس', 'voice');
-message.guild.createChannel('VIP - كبار الشخصيات', 'voice');
-message.guild.createChannel('Friends - اصدقاء', 'voice');
-message.guild.createChannel('▓▬▬▬WEL▬▬▬▓', 'voice');
-message.guild.createChannel('Help - مساعدة', 'voice');
-message.guild.createChannel('Ξ〖 اقـتـراحـاتـكمـ 💡 〗', 'voice');
-message.guild.createChannel('▓▬▬▬♚▬▬▬▓', 'voice');
-message.guild.createChannel('♧ Ξ〖 🎤  سواليف 📣  〗', 'voice');
-message.guild.createChannel('♢ Ξ〖 🎤 مواهب 🎵  〗', 'voice');
-message.guild.createChannel('❋ Ξ〖 🎈فعاليات 🏅 〗', 'voice');
-message.guild.createChannel('❋ Ξ〖  🕋 القرآن الكريم  〗', 'voice');
-message.guild.createChannel('▓▬▬▬♛▬▬▬▓', 'voice');
-message.guild.createChannel('☆  Ξ〖 🔞  السجن العام 🔪 〗', 'voice');
-message.guild.createChannel('▓▬▬▬Games▬▬▬▓', 'voice');
-message.guild.createChannel('Clash of Clans | كلاش أوف كلانز', 'voice');
-message.guild.createChannel('Clash Royal | كلاش رويال', 'voice');
-message.guild.createChannel('Hajwala  Online | هجولة أون لاين', 'voice');
-message.guild.createChannel('Bullet force | بولت فورس', 'voice');
-message.guild.createChannel('MTA | ام تي اي', 'voice');
-message.guild.createChannel('Ludo Star | لودو ستار', 'voice');
-message.guild.createChannel('▓▬▬▬Private▬▬▬▓', 'voice');
-message.guild.createChannel('✿Tow✿', 'voice');
-message.guild.createChannel('✿Three✿', 'voice');
-message.guild.createChannel('✿Four✿', 'voice');
-message.guild.createChannel('✿Five✿', 'voice');
-message.guild.createChannel('✿Six✿', 'voice');
-message.guild.createChannel('▓▬▬▬AFK▬▬▬▓', 'voice');
-message.guild.createChannel('Away From keyboard AFK', 'voice');
-message.guild.createChannel('▓▬▬▬♚▬▬▬▓', 'voice');
-
-  console.log(`i make text channels in this server: ** ${message.guild.name} ** `)
-  
-}
-});
-	  
-	  
-	  
             client.login(process.env.BOT_TOKEN);
 
   
